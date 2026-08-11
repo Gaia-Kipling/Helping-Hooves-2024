@@ -1,0 +1,167 @@
+html, body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('Background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 100%;
+}
+
+header img {
+    margin-bottom: 10px;
+    max-width: 100%;
+}
+
+header p {
+    margin: 5px 0;
+    font-size: 18px;
+    color: black;
+}
+
+header h2 {
+    margin: 5px 0;
+    font-size: 36px;
+    color: black;
+}
+
+header h1 {
+    margin: 10px 0;
+    font-size: 36px;
+    color: black;
+}
+
+nav {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: white;
+    color: black;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+main section {
+    text-align: center;
+    margin: 10px;
+}
+
+main img {
+    border-radius: 8px;
+    max-width: 100%;
+}
+
+main p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-top: auto;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+footer h5 {
+    margin: 0;
+}
+
+footer .social-links {
+    display: flex;
+    gap: 10px;
+    border: 2px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+footer .social-links a {
+    display: inline-block;
+}
+
+footer .social-links a img {
+    width: 20px;
+    height: 20px;
+}
+
+@media (max-width: 768px) {
+    header h2 {
+        font-size: 28px;
+    }
+
+    header h1 {
+        font-size: 20px;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav li {
+        margin: 10px 0;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    main section {
+        width: 90%;
+    }
+
+    footer .social-links {
+        justify-content: center;
+    }
+}

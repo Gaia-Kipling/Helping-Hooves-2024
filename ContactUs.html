@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Helping Hooves - Contact Us</title>
+    <meta name="description" content="Contact Helping Hooves to learn more about our equine rescue, adoption, and support services across South Africa. Reach us via phone, email, or visit our head office in Sandton.">
+    <link rel="icon" type="image/x-icon" href="Favicon.png">
+    <link rel="stylesheet" href="ContactUs.css">
+</head>
+<body>
+
+    <header>
+        <img src="Logo Helping Hooves.png" width="100" height="100" alt="Helping Hooves Logo featuring a horse and heart design"/>
+        <h2>Helping Hooves</h2>
+        <p>Where Horses Mend Hearts</p>
+        <h1>Contact Us</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="HomePage.html" target="_blank">Home</a></li>
+            <li><a href="AboutUs.html" target="_blank">About Us</a></li>
+            <li><a href="News.html" target="_blank">News</a></li>
+            <div class="dropdown">
+                <button class="dropbtn">Services</button>
+                <div class="dropdown-content">
+                    <a href="Rescue.html">Rescue</a>
+                    <a href="Adoption.html">Adoption</a>
+                    <a href="Surrender.html">Surrender</a>
+                    <a href="Outreach.html">Outreach</a>
+                </div>
+            </div>
+        </ul>
+    </nav>
+
+    <main>
+        <h3>Contact Information</h3>
+        <p>Phone Number: <a href="tel:+27740590075">074 059 0075</a> or <a href="tel:+27116747869">011 674 7869</a></p>
+        <p>Email Address: <a href="mailto:helpinghoovessa@gmail.com">helpinghoovessa@gmail.com</a></p>
+        <p>Our organization operates across South Africa, with our main office located in Sandton, providing support for equine rescue and adoption services.</p>
+
+        <center>
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3583.1637088649863!2d28.045170875194863!3d-26.09357417714496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e95733c18d3cb89%3A0xed59860bb3c2c891!2sThe%20IIE&#39;s%20Varsity%20College%20-%20Sandton!5e0!3m2!1sen!2sza!4v1726478089427!5m2!1sen!2sza"
+                width="600" 
+                height="450" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </center>
+        
+        <img src="Zebra-removebg-preview.png" width="450" height="350" alt="A zebra at Helping Hooves equine sanctuary">
+        
+        <h3>Contact Form</h3>
+        
+        <form action="mailto:helpinghoovessa@gmail.com" method="POST" enctype="text/plain">
+            <label for="name">Name and Surname:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="enquiry">Reason for Enquiry:</label>
+            <select id="enquiry" name="enquiry" required>
+                <option value="Rescue">Rescue</option>
+                <option value="Adoption">Adoption</option>
+                <option value="Surrender">Surrender</option>
+                <option value="Outreach">Outreach</option>
+            </select>
+
+            <label for="message">Additional Message (Optional):</label>
+            <textarea id="message" name="message" rows="4" placeholder="Optional message..."></textarea>
+
+            <div class="form-buttons">
+                <input type="submit" value="Submit">
+                <input type="reset" value="Clear">
+            </div>
+        </form>
+    </main>
+
+    <footer>
+        <h5>© 2024 Helping Hooves, All Rights Reserved</h5>
+        <div style="float: right;">
+            <a href="https://www.instagram.com/helpinghoovessa?igsh=MWR4eHpvdHZrdnBoNA%3D%3D&utm_source=qr" target="_blank">
+                <img src="Instagram Icon.png" alt="Follow Helping Hooves on Instagram" width="50" height="50">
+            </a>
+            <a href="https://www.facebook.com/share/184Hdrgnw1/?mibextid=LQQJ4d" target="_blank">
+                <img src="Facebook Icon.png" alt="Follow Helping Hooves on Facebook" width="50" height="50">
+            </a>
+        </div>
+    </footer>
+
+    <script src="ContactUs.js"></script>
+</body>
+</html>
